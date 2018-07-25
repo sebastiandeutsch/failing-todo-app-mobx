@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 export default class TodoList extends Component {
-  /*
   static propTypes = {
     todos: PropTypes.arrayOf(PropTypes.shape({
       id: PropTypes.number.isRequired,
@@ -11,7 +10,6 @@ export default class TodoList extends Component {
     })).isRequired,
     onChangeTodo: PropTypes.func.isRequired
   };
-  */
 
   handleChangeCompletedClick = (event) => {
     const index = parseInt(event.target.dataset.index, 10);
